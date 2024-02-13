@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="8.86">
+    <testcase classname="Swag Labs" name="Successful Swag Labs Login" time="2.203">
+        <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
+When User enters a valid username...........................................passed
+And User enters a valid password............................................passed
+And User clicks on the login button.........................................passed
+Then User should be logged in to the Swag Labs account......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Swag Labs" name="Add few Items into Swag Labs Shopping Cart" time="1.441">
+        <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
+When User enters a valid username...........................................passed
+And User enters a valid password............................................passed
+And User clicks on the login button.........................................passed
+When User added few items into shopping cart................................passed
+And User clicks on shopping cart icon.......................................passed
+Then User should be on shopping cart page...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Swag Labs" name="Verify the filter icon functionalities on Swag Labs home page" time="1.285">
+        <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
+When User enters a valid username...........................................passed
+And User enters a valid password............................................passed
+And User clicks on the login button.........................................passed
+When User select filter lohi................................................passed
+Then User should be able to see the displayed items as per the filter lohi..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Swag Labs" name="Verify the filter icon functionalities on Swag Labs home page 2" time="1.148">
+        <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
+When User enters a valid username...........................................passed
+And User enters a valid password............................................passed
+And User clicks on the login button.........................................passed
+When User select filter hilo................................................passed
+Then User should be able to see the displayed items as per the filter hilo..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Swag Labs" name="Verify the items sorting functionalities on Swag Labs home page" time="1.089">
+        <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
+When User enters a valid username...........................................passed
+And User enters a valid password............................................passed
+And User clicks on the login button.........................................passed
+When User sort the items by selecting a filter az...........................passed
+Then User should be able to see items alphabetical order as per the filter az.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Swag Labs" name="Verify the items sorting functionalities on Swag Labs home page 2" time="1.155">
+        <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
+When User enters a valid username...........................................passed
+And User enters a valid password............................................passed
+And User clicks on the login button.........................................passed
+When User sort the items by selecting a filter za...........................passed
+Then User should be able to see items alphabetical order as per the filter za.passed
+]]></system-out>
+    </testcase>
+</testsuite>

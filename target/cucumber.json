@@ -1,0 +1,559 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-13T08:24:03.519Z",
+        "line": 3,
+        "name": "Successful Swag Labs Login",
+        "description": "",
+        "id": "swag-labs;successful-swag-labs-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996723500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the Swag Labs login page",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_navigates_to_the_swag_labs_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 360037100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters a valid username",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_enters_a_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188654400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters a valid password",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_enters_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289249400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154136000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be logged in to the Swag Labs account",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_should_be_logged_in_to_the_swag_labs_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-13T08:24:05.749Z",
+        "line": 10,
+        "name": "Add few Items into Swag Labs Shopping Cart",
+        "description": "",
+        "id": "swag-labs;add-few-items-into-swag-labs-shopping-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 184055500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User navigates to the Swag Labs login page",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_navigates_to_the_swag_labs_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175639000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters a valid username",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_enters_a_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172638600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters a valid password",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_enters_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212467300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 361780900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User added few items into shopping cart",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_added_few_items_into_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 211979300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on shopping cart icon",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_clicks_on_shopping_cart_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111701300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should be on shopping cart page",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_should_be_on_shopping_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-13T08:24:07.221Z",
+        "line": 28,
+        "name": "Verify the filter icon functionalities on Swag Labs home page",
+        "description": "",
+        "id": "swag-labs;verify-the-filter-icon-functionalities-on-swag-labs-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 89108900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User navigates to the Swag Labs login page",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_navigates_to_the_swag_labs_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202951600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters a valid username",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_enters_a_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197583800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters a valid password",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_enters_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189020100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 267785500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User select filter lohi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lohi",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_select_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 325440500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should be able to see the displayed items as per the filter lohi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lohi",
+                  "offset": 65
+                }
+              ],
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_should_be_able_to_see_the_displayed_items_as_per_the_filter(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-13T08:24:08.514Z",
+        "line": 29,
+        "name": "Verify the filter icon functionalities on Swag Labs home page",
+        "description": "",
+        "id": "swag-labs;verify-the-filter-icon-functionalities-on-swag-labs-home-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 87763500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User navigates to the Swag Labs login page",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_navigates_to_the_swag_labs_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 165049100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters a valid username",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_enters_a_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169597800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters a valid password",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_enters_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185277400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205386900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User select filter hilo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hilo",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_select_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 329241900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should be able to see the displayed items as per the filter hilo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hilo",
+                  "offset": 65
+                }
+              ],
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_should_be_able_to_see_the_displayed_items_as_per_the_filter(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-13T08:24:09.674Z",
+        "line": 41,
+        "name": "Verify the items sorting functionalities on Swag Labs home page",
+        "description": "",
+        "id": "swag-labs;verify-the-items-sorting-functionalities-on-swag-labs-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 75341200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User navigates to the Swag Labs login page",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_navigates_to_the_swag_labs_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166153000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User enters a valid username",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_enters_a_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173131200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User enters a valid password",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_enters_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157576700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139824600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User sort the items by selecting a filter az",
+            "match": {
+              "arguments": [
+                {
+                  "val": "az",
+                  "offset": 42
+                }
+              ],
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_sort_the_items_by_selecting_a_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 371446800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User should be able to see items alphabetical order as per the filter az",
+            "match": {
+              "arguments": [
+                {
+                  "val": "az",
+                  "offset": 70
+                }
+              ],
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_should_be_able_to_see_items_alphabetical_order_as_per_the_filter(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-13T08:24:10.773Z",
+        "line": 42,
+        "name": "Verify the items sorting functionalities on Swag Labs home page",
+        "description": "",
+        "id": "swag-labs;verify-the-items-sorting-functionalities-on-swag-labs-home-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 92966500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User navigates to the Swag Labs login page",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_navigates_to_the_swag_labs_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 194376200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User enters a valid username",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_enters_a_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157218100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User enters a valid password",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_enters_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176458700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161092100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User sort the items by selecting a filter za",
+            "match": {
+              "arguments": [
+                {
+                  "val": "za",
+                  "offset": 42
+                }
+              ],
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_sort_the_items_by_selecting_a_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 367174600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User should be able to see items alphabetical order as per the filter za",
+            "match": {
+              "arguments": [
+                {
+                  "val": "za",
+                  "offset": 70
+                }
+              ],
+              "location": "com.example.gmailautomation.stepdefinitions.SwagLabsStepDefinitions.user_should_be_able_to_see_items_alphabetical_order_as_per_the_filter(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Swag Labs",
+    "description": "",
+    "id": "swag-labs",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SwagLabs.feature",
+    "tags": []
+  }
+]
