@@ -7,11 +7,11 @@ public class CheckoutPage {
 	private WebDriver driver;
 
     // Locators
-    public By usernameInput = By.id("identifierId");
-   public By passwordNextButton = By.id("passwordNext");
+  //  public By usernameInput = By.id("identifierId");
+   //public By passwordNextButton = By.id("passwordNext");
 
    public CheckoutPage(WebDriver driver) {
         this.driver = driver;
     }
-//Test github and jenkins
+
 }
