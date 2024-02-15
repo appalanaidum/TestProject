@@ -11,11 +11,13 @@ public class CheckoutPage {
     public By passwordNextButton = By.id("passwordNext");
 
 
-    public By test7 = By.id("test1");
-    public By test8 = By.name("test2");
+    
     public By test5 = By.xpath("test");
     public By test6 = By.tagName("test");
-
+    public By test7 = By.id("test1");
+    public By test8 = By.name("test2");
+    public By test9 = By.tagName("test9");
+    public By test10 = By.tagName("test10");
     public By test1 = By.id("test");
     public By test2 = By.name("test");
     public By test3 = By.xpath("test3");
