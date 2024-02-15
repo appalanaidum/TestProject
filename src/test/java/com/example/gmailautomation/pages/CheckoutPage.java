@@ -26,6 +26,7 @@ public class CheckoutPage {
     public By test11 = By.xpath("test11");
     public By test12 = By.tagName("test12");
     public By test13 = By.tagName("test13");
+    public By test14 = By.tagName("test14");
    public CheckoutPage(WebDriver driver) {
         this.driver = driver;
     }
