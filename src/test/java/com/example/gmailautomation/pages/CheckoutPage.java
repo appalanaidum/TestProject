@@ -9,6 +9,8 @@ public class CheckoutPage {
     // Locators
    
     public By passwordNextButton = By.id("passwordNext");
+	public By test3 = By.xpath("test3");
+    public By test4 = By.tagName("test5");
 
    public CheckoutPage(WebDriver driver) {
         this.driver = driver;
