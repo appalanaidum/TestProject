@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="8.86">
-    <testcase classname="Swag Labs" name="Successful Swag Labs Login" time="2.203">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="7.356">
+    <testcase classname="Swag Labs" name="Successful Swag Labs Login" time="2.088">
         <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
 When User enters a valid username...........................................passed
 And User enters a valid password............................................passed
@@ -8,7 +8,7 @@ And User clicks on the login button.........................................pass
 Then User should be logged in to the Swag Labs account......................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Swag Labs" name="Add few Items into Swag Labs Shopping Cart" time="1.441">
+    <testcase classname="Swag Labs" name="Add few Items into Swag Labs Shopping Cart" time="1.103">
         <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
 When User enters a valid username...........................................passed
 And User enters a valid password............................................passed
@@ -18,7 +18,7 @@ And User clicks on shopping cart icon.......................................pass
 Then User should be on shopping cart page...................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Swag Labs" name="Verify the filter icon functionalities on Swag Labs home page" time="1.285">
+    <testcase classname="Swag Labs" name="Verify the filter icon functionalities on Swag Labs home page" time="0.971">
         <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
 When User enters a valid username...........................................passed
 And User enters a valid password............................................passed
@@ -27,7 +27,7 @@ When User select filter lohi................................................pass
 Then User should be able to see the displayed items as per the filter lohi..passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Swag Labs" name="Verify the filter icon functionalities on Swag Labs home page 2" time="1.148">
+    <testcase classname="Swag Labs" name="Verify the filter icon functionalities on Swag Labs home page 2" time="1.002">
         <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
 When User enters a valid username...........................................passed
 And User enters a valid password............................................passed
@@ -36,7 +36,7 @@ When User select filter hilo................................................pass
 Then User should be able to see the displayed items as per the filter hilo..passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Swag Labs" name="Verify the items sorting functionalities on Swag Labs home page" time="1.089">
+    <testcase classname="Swag Labs" name="Verify the items sorting functionalities on Swag Labs home page" time="0.829">
         <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
 When User enters a valid username...........................................passed
 And User enters a valid password............................................passed
@@ -45,7 +45,7 @@ When User sort the items by selecting a filter az...........................pass
 Then User should be able to see items alphabetical order as per the filter az.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Swag Labs" name="Verify the items sorting functionalities on Swag Labs home page 2" time="1.155">
+    <testcase classname="Swag Labs" name="Verify the items sorting functionalities on Swag Labs home page 2" time="0.878">
         <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
 When User enters a valid username...........................................passed
 And User enters a valid password............................................passed

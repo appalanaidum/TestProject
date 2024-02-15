@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-02-13T08:24:03.519Z",
+        "start_timestamp": "2024-02-15T09:17:21.952Z",
         "line": 3,
         "name": "Successful Swag Labs Login",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 996723500,
+              "duration": 988574100,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 360037100,
+              "duration": 293672400,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 188654400,
+              "duration": 206673200,
               "status": "passed"
             },
             "line": 6,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 289249400,
+              "duration": 212243800,
               "status": "passed"
             },
             "line": 7,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 154136000,
+              "duration": 153529200,
               "status": "passed"
             },
             "line": 8,
@@ -74,7 +74,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-02-13T08:24:05.749Z",
+        "start_timestamp": "2024-02-15T09:17:24.062Z",
         "line": 10,
         "name": "Add few Items into Swag Labs Shopping Cart",
         "description": "",
@@ -84,7 +84,7 @@
         "steps": [
           {
             "result": {
-              "duration": 184055500,
+              "duration": 190022300,
               "status": "passed"
             },
             "line": 11,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 175639000,
+              "duration": 168579600,
               "status": "passed"
             },
             "line": 12,
@@ -108,7 +108,7 @@
           },
           {
             "result": {
-              "duration": 172638600,
+              "duration": 144771000,
               "status": "passed"
             },
             "line": 13,
@@ -120,7 +120,7 @@
           },
           {
             "result": {
-              "duration": 212467300,
+              "duration": 164928800,
               "status": "passed"
             },
             "line": 14,
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 361780900,
+              "duration": 216707200,
               "status": "passed"
             },
             "line": 15,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 211979300,
+              "duration": 119415100,
               "status": "passed"
             },
             "line": 16,
@@ -156,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 111701300,
+              "duration": 85855600,
               "status": "passed"
             },
             "line": 17,
@@ -169,7 +169,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-02-13T08:24:07.221Z",
+        "start_timestamp": "2024-02-15T09:17:25.190Z",
         "line": 28,
         "name": "Verify the filter icon functionalities on Swag Labs home page",
         "description": "",
@@ -179,7 +179,7 @@
         "steps": [
           {
             "result": {
-              "duration": 89108900,
+              "duration": 97230300,
               "status": "passed"
             },
             "line": 20,
@@ -191,7 +191,7 @@
           },
           {
             "result": {
-              "duration": 202951600,
+              "duration": 165321000,
               "status": "passed"
             },
             "line": 21,
@@ -203,7 +203,7 @@
           },
           {
             "result": {
-              "duration": 197583800,
+              "duration": 147382500,
               "status": "passed"
             },
             "line": 22,
@@ -215,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 189020100,
+              "duration": 121768100,
               "status": "passed"
             },
             "line": 23,
@@ -227,7 +227,7 @@
           },
           {
             "result": {
-              "duration": 267785500,
+              "duration": 176643400,
               "status": "passed"
             },
             "line": 24,
@@ -245,7 +245,7 @@
           },
           {
             "result": {
-              "duration": 325440500,
+              "duration": 256810600,
               "status": "passed"
             },
             "line": 25,
@@ -264,7 +264,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-02-13T08:24:08.514Z",
+        "start_timestamp": "2024-02-15T09:17:26.171Z",
         "line": 29,
         "name": "Verify the filter icon functionalities on Swag Labs home page",
         "description": "",
@@ -274,7 +274,7 @@
         "steps": [
           {
             "result": {
-              "duration": 87763500,
+              "duration": 86767300,
               "status": "passed"
             },
             "line": 20,
@@ -286,7 +286,7 @@
           },
           {
             "result": {
-              "duration": 165049100,
+              "duration": 175056000,
               "status": "passed"
             },
             "line": 21,
@@ -298,7 +298,7 @@
           },
           {
             "result": {
-              "duration": 169597800,
+              "duration": 165078600,
               "status": "passed"
             },
             "line": 22,
@@ -310,7 +310,7 @@
           },
           {
             "result": {
-              "duration": 185277400,
+              "duration": 190542200,
               "status": "passed"
             },
             "line": 23,
@@ -322,7 +322,7 @@
           },
           {
             "result": {
-              "duration": 205386900,
+              "duration": 153962300,
               "status": "passed"
             },
             "line": 24,
@@ -340,7 +340,7 @@
           },
           {
             "result": {
-              "duration": 329241900,
+              "duration": 223554700,
               "status": "passed"
             },
             "line": 25,
@@ -359,7 +359,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-02-13T08:24:09.674Z",
+        "start_timestamp": "2024-02-15T09:17:27.181Z",
         "line": 41,
         "name": "Verify the items sorting functionalities on Swag Labs home page",
         "description": "",
@@ -369,7 +369,7 @@
         "steps": [
           {
             "result": {
-              "duration": 75341200,
+              "duration": 73335300,
               "status": "passed"
             },
             "line": 33,
@@ -381,7 +381,7 @@
           },
           {
             "result": {
-              "duration": 166153000,
+              "duration": 145858100,
               "status": "passed"
             },
             "line": 34,
@@ -393,7 +393,7 @@
           },
           {
             "result": {
-              "duration": 173131200,
+              "duration": 146568700,
               "status": "passed"
             },
             "line": 35,
@@ -405,7 +405,7 @@
           },
           {
             "result": {
-              "duration": 157576700,
+              "duration": 121628800,
               "status": "passed"
             },
             "line": 36,
@@ -417,7 +417,7 @@
           },
           {
             "result": {
-              "duration": 139824600,
+              "duration": 92945500,
               "status": "passed"
             },
             "line": 37,
@@ -435,7 +435,7 @@
           },
           {
             "result": {
-              "duration": 371446800,
+              "duration": 246104700,
               "status": "passed"
             },
             "line": 38,
@@ -454,7 +454,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-02-13T08:24:10.773Z",
+        "start_timestamp": "2024-02-15T09:17:28.018Z",
         "line": 42,
         "name": "Verify the items sorting functionalities on Swag Labs home page",
         "description": "",
@@ -464,7 +464,7 @@
         "steps": [
           {
             "result": {
-              "duration": 92966500,
+              "duration": 70807500,
               "status": "passed"
             },
             "line": 33,
@@ -476,7 +476,7 @@
           },
           {
             "result": {
-              "duration": 194376200,
+              "duration": 145578700,
               "status": "passed"
             },
             "line": 34,
@@ -488,7 +488,7 @@
           },
           {
             "result": {
-              "duration": 157218100,
+              "duration": 141883100,
               "status": "passed"
             },
             "line": 35,
@@ -500,7 +500,7 @@
           },
           {
             "result": {
-              "duration": 176458700,
+              "duration": 120179200,
               "status": "passed"
             },
             "line": 36,
@@ -512,7 +512,7 @@
           },
           {
             "result": {
-              "duration": 161092100,
+              "duration": 132373800,
               "status": "passed"
             },
             "line": 37,
@@ -530,7 +530,7 @@
           },
           {
             "result": {
-              "duration": 367174600,
+              "duration": 264953600,
               "status": "passed"
             },
             "line": 38,
