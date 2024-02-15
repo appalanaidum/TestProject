@@ -8,7 +8,7 @@ public class CheckoutPage {
 
     // Locators
    // public By usernameInput = By.id("identifierId");
-   // public By passwordNextButton = By.id("passwordNext");
+    public By passwordNextButton = By.id("passwordNext");
 
    public CheckoutPage(WebDriver driver) {
         this.driver = driver;
