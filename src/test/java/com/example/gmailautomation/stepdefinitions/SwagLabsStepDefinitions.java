@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import com.example.gmailautomation.pages.CheckoutPage;
 import com.example.gmailautomation.pages.SwagLabsHomePage;
 import com.example.gmailautomation.pages.SwagLabsLoginPage;
 import com.example.gmailautomation.pages.SwagLabsShoppingCartPage;
@@ -27,6 +28,7 @@ public class SwagLabsStepDefinitions {
 	SwagLabsLoginPage swagLabsLoginPage = new SwagLabsLoginPage(driver);
 	SwagLabsHomePage swagLabsHomePage = new SwagLabsHomePage(driver);
 	SwagLabsShoppingCartPage swagLabsShoppingCartPage = new SwagLabsShoppingCartPage(driver);
+	CheckoutPage checkoutPage = new CheckoutPage(driver);
 
 	// Read properties by using Properties class
 	Properties properties = ReadProperties.getProperties();
@@ -95,69 +97,7 @@ public class SwagLabsStepDefinitions {
 		Select dropdownOptions = WebDriverManager.getSelectDropdownOptions(element);
 		dropdownOptions.selectByValue(filterValue);
 	}
-	
-	/*@Then("^User should be able to see the displayed items as per the filter (.+)$")
-	public void user_should_be_able_to_see_the_displayed_items_as_per_the_filter(String filterValue) {
-		ArrayList<WebElement> items=null;
-		if(filterValue=="lohi" || filterValue=="hilo" )
-		{
-		items = (ArrayList<WebElement>) driver.findElements(swagLabsHomePage.item_prices);
-		}else
-		{
-		items = (ArrayList<WebElement>) driver.findElements(swagLabsHomePage.item_names);
-		}	
-		float temp1 = (float) 0.0, temp2 = (float) 0.0;
-		String tempString1=null, tempString2=null;
-		boolean flag = true;
-		if (filterValue.equals("lohi")) {
-			for (int i = 0; i < items.size() - 1; i++) {
-				//System.out.println(Float.parseFloat(items.get(i).getText().substring(1)));
-				temp1 = Float.parseFloat(items.get(i).getText().substring(1));
-				temp2 = Float.parseFloat(items.get(i + 1).getText().substring(1));
-				if (!(temp1 <= temp2)) {
-					flag = false;
-				}
-				
-			}
-		} else if (filterValue.equals("hilo")) {
-			for (int i = 0; i < items.size() - 1; i++) {
-				// System.out.println(items.get(i).getText());
-				//System.out.println(Float.parseFloat(items.get(i).getText().substring(1)));
-				temp1 = Float.parseFloat(items.get(i).getText().substring(1));
-				temp2 = Float.parseFloat(items.get(i + 1).getText().substring(1));
-				if (!(temp1 >= temp2)) {
-					flag = false;
-				}
-			}
-		} else if (filterValue.equals("az")) {
-			for (int i = 0; i < items.size() - 1; i++) {
-				 System.out.println(items.get(i).getText());
-				//System.out.println(Float.parseFloat(items.get(i).getText().substring(1)));
-				tempString1 = items.get(i).getText();
-				tempString2 = items.get(i+1).getText();
-				if (tempString1.compareTo(tempString2)>0) {
-					flag = false;
-				}
-			}
-		}else if (filterValue.equals("za")) {
-			for (int i = 0; i < items.size() - 1; i++) {
-				 System.out.println(items.get(i).getText());
-				//System.out.println(Float.parseFloat(items.get(i).getText().substring(1)));
-				tempString1 = items.get(i).getText();
-				tempString2 = items.get(i+1).getText();
-				if (tempString1.compareTo(tempString2)<0) {
-					flag = false;
-				}
-			}
-		}else {
-			System.out.println("Items price is wrong");
-		}
-		items.clear();
-		Assert.assertTrue(flag);
-	}
-	*/
-	
-	
+
 	@Then("^User should be able to see the displayed items as per the filter (.+)$")
 	public void user_should_be_able_to_see_the_displayed_items_as_per_the_filter(String filterValue) {
 		ArrayList<WebElement> items = (ArrayList<WebElement>) driver.findElements(swagLabsHomePage.item_prices);
@@ -189,7 +129,6 @@ public class SwagLabsStepDefinitions {
 		Assert.assertTrue(flag);
 	}
 
-	
 	@When("^User sort the items by selecting a filter (.+)$")
 	public void user_sort_the_items_by_selecting_a_filter(String filterValue) {
 		WebElement element = WebDriverManager.waitForElementVisible(swagLabsHomePage.homePageFilter);
@@ -222,8 +161,58 @@ public class SwagLabsStepDefinitions {
 			}
 		} else {
 			System.out.println("Items price is wrong");
-		}		
+		}
 		Assert.assertTrue(flag);
+	}
+
+	@When("User clicks Checkout button")
+	public void user_clicks_checkout_button() {
+		// Wait for the Checkout button to be visible
+		WebDriverManager.waitForElementVisible(swagLabsShoppingCartPage.checkoutButton);
+		swagLabsShoppingCartPage.clickCheckoutButton();
+	}
+
+	@Then("User should be on Checkout page")
+	public void user_should_be_on_checkout_page() {
+		// Wait for the Checkout page title to be visible
+		WebDriverManager.waitForElementVisible(checkoutPage.checkoutPageTitle);
+		String title = checkoutPage.getCheckoutPageTitle();
+		Assert.assertEquals("Checkout: Your Information", title);
+	}
+
+	@When("User fill required details and clicks continue button")
+	public void user_fill_required_details_and_clicks_continue_button() {
+		// Wait for the Checkout page title to be visible
+		WebDriverManager.waitForElementVisible(checkoutPage.firstNameElement);
+		checkoutPage.enterFirstNameOnCheckoutPage(properties.getProperty("firstName"));
+		checkoutPage.enterLastNameOnCheckoutPage(properties.getProperty("lastName"));
+		checkoutPage.enterPostalCodeOnCheckoutPage(properties.getProperty("postalCode"));
+		WebDriverManager.waitForElementVisible(checkoutPage.continueButton);
+		checkoutPage.clickContinueButton();
+
+	}
+
+	@Then("User should be on Checkout Overview details page")
+	public void user_should_be_on_checkout_overview_details_page() {
+		// Wait for the Checkout Overview title to be visible
+				WebDriverManager.waitForElementVisible(checkoutPage.checkoutOverviewPageTitle);
+				String title = checkoutPage.getCheckoutOverviewPageTitle();
+				Assert.assertEquals("Checkout: Overview", title);
+	}
+
+	@When("User clicks finish button")
+	public void user_clicks_finish_button() {
+		// Wait for the Checkout button to be visible
+				WebDriverManager.waitForElementVisible(checkoutPage.finishButton);
+				checkoutPage.clickFinishButton();
+	}
+
+	@Then("User should be on Checkout completed page")
+	public void user_should_be_on_checkout_completed_page() {
+		// Wait for the Checkout Completed page title to be visible
+		WebDriverManager.waitForElementVisible(checkoutPage.checkoutCompletedPageTitle);
+		String title = checkoutPage.getCheckoutCompletedPageTitle();
+		Assert.assertEquals("Checkout: Complete!", title);
 	}
 
 }
