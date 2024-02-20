@@ -56,5 +56,9 @@ Scenario: Add few Items into Swag Labs Shopping Cart
     When User added few items into shopping cart
     And User clicks on shopping cart icon
     Then User should be on shopping cart page
+    When User removed few items from the shopping cart
+    Then User should be able to see the items count on the shopping cart as 1
+    When User clicks on continue shopping button
+    Then User should be logged in to the Swag Labs account
     
     

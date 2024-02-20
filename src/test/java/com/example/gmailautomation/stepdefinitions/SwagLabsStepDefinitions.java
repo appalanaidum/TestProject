@@ -195,16 +195,16 @@ public class SwagLabsStepDefinitions {
 	@Then("User should be on Checkout Overview details page")
 	public void user_should_be_on_checkout_overview_details_page() {
 		// Wait for the Checkout Overview title to be visible
-				WebDriverManager.waitForElementVisible(checkoutPage.checkoutOverviewPageTitle);
-				String title = checkoutPage.getCheckoutOverviewPageTitle();
-				Assert.assertEquals("Checkout: Overview", title);
+		WebDriverManager.waitForElementVisible(checkoutPage.checkoutOverviewPageTitle);
+		String title = checkoutPage.getCheckoutOverviewPageTitle();
+		Assert.assertEquals("Checkout: Overview", title);
 	}
 
 	@When("User clicks finish button")
 	public void user_clicks_finish_button() {
 		// Wait for the Checkout button to be visible
-				WebDriverManager.waitForElementVisible(checkoutPage.finishButton);
-				checkoutPage.clickFinishButton();
+		WebDriverManager.waitForElementVisible(checkoutPage.finishButton);
+		checkoutPage.clickFinishButton();
 	}
 
 	@Then("User should be on Checkout completed page")
@@ -213,6 +213,28 @@ public class SwagLabsStepDefinitions {
 		WebDriverManager.waitForElementVisible(checkoutPage.checkoutCompletedPageTitle);
 		String title = checkoutPage.getCheckoutCompletedPageTitle();
 		Assert.assertEquals("Checkout: Complete!", title);
+	}
+
+	@When("User removed few items from the shopping cart")
+	public void user_removed_few_items_from_the_shopping_cart() {
+		// Wait for the Checkout button to be visible
+		WebDriverManager.waitForElementVisible(swagLabsShoppingCartPage.removeSauceLabsBackpack);
+		swagLabsShoppingCartPage.removeAddedItemsFromCart();
+	}
+
+	@Then("^User should be able to see the items count on the shopping cart as (.+)$")
+	public void user_should_be_able_to_see_the_items_count_on_the_shopping_cart_as(String countValue) {
+		// Wait for the shoppingCartItemsCount to be visible
+		WebDriverManager.waitForElementVisible(swagLabsShoppingCartPage.shoppingCartItemsCount);
+		String shoppingCartItemsCountValue = swagLabsShoppingCartPage.getShoppingCartItemsCount();
+		Assert.assertEquals(countValue, shoppingCartItemsCountValue);
+	}
+
+	@When("User clicks on continue shopping button")
+	public void user_clicks_on_continue_shopping_button() {
+		// Wait for the Checkout button to be visible
+		WebDriverManager.waitForElementVisible(swagLabsShoppingCartPage.continueShoppingButton);
+		swagLabsShoppingCartPage.clickContinueShoppingButton();
 	}
 
 }
