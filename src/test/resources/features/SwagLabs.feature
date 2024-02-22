@@ -1,5 +1,5 @@
 Feature: Swag Labs 
-
+@Login
 Scenario: Successful Swag Labs Login
     Given User navigates to the Swag Labs login page
     When User enters a valid username 
@@ -33,6 +33,7 @@ Scenario Outline: Verify the items sorting functionalities on Swag Labs home pag
     |    az           |  
     |    za           | 
     
+ @Smoke   
 Scenario: Verify order should be able to place successfully on Swag Labs
     Given User navigates to the Swag Labs login page
     When User enters a valid username 
@@ -47,7 +48,8 @@ Scenario: Verify order should be able to place successfully on Swag Labs
     Then User should be on Checkout Overview details page
     When User clicks finish button
     Then User should be on Checkout completed page
-    
+  
+ @Sanity   
 Scenario: Add few Items into Swag Labs Shopping Cart
     Given User navigates to the Swag Labs login page
     When User enters a valid username 

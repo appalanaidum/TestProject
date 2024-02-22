@@ -1,50 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="9.02">
-    <testcase classname="Swag Labs" name="Successful Swag Labs Login" time="1.683">
-        <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
-When User enters a valid username...........................................passed
-And User enters a valid password............................................passed
-And User clicks on the login button.........................................passed
-Then User should be logged in to the Swag Labs account......................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Swag Labs" name="Verify the filter icon functionalities on Swag Labs home page" time="1.025">
-        <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
-When User enters a valid username...........................................passed
-And User enters a valid password............................................passed
-And User clicks on the login button.........................................passed
-When User select filter lohi................................................passed
-Then User should be able to see the displayed items as per the filter lohi..passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Swag Labs" name="Verify the filter icon functionalities on Swag Labs home page 2" time="1.09">
-        <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
-When User enters a valid username...........................................passed
-And User enters a valid password............................................passed
-And User clicks on the login button.........................................passed
-When User select filter hilo................................................passed
-Then User should be able to see the displayed items as per the filter hilo..passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Swag Labs" name="Verify the items sorting functionalities on Swag Labs home page" time="0.836">
-        <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
-When User enters a valid username...........................................passed
-And User enters a valid password............................................passed
-And User clicks on the login button.........................................passed
-When User sort the items by selecting a filter az...........................passed
-Then User should be able to see items alphabetical order as per the filter az.passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Swag Labs" name="Verify the items sorting functionalities on Swag Labs home page 2" time="0.872">
-        <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
-When User enters a valid username...........................................passed
-And User enters a valid password............................................passed
-And User clicks on the login button.........................................passed
-When User sort the items by selecting a filter za...........................passed
-Then User should be able to see items alphabetical order as per the filter za.passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Swag Labs" name="Verify order should be able to place successfully on Swag Labs" time="1.887">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="6.361">
+    <testcase classname="Swag Labs" name="Verify order should be able to place successfully on Swag Labs" time="3.956">
         <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
 When User enters a valid username...........................................passed
 And User enters a valid password............................................passed
@@ -60,7 +16,7 @@ When User clicks finish button..............................................pass
 Then User should be on Checkout completed page..............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Swag Labs" name="Add few Items into Swag Labs Shopping Cart" time="1.232">
+    <testcase classname="Swag Labs" name="Add few Items into Swag Labs Shopping Cart" time="1.804">
         <system-out><![CDATA[Given User navigates to the Swag Labs login page............................passed
 When User enters a valid username...........................................passed
 And User enters a valid password............................................passed
